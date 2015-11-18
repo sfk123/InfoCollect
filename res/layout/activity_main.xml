@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context="com.example.infocollect.LoginActivity" >
+	<LinearLayout
+	    android:id="@+id/layout_notice" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/background_corner"
+	    android:padding="10dp"
+	    android:orientation="vertical"
+	    android:layout_margin="10dp">
+	    <TextView 
+	        android:id="@+id/tv_notice"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/black_text"
+	        android:layout_gravity="center_horizontal"
+	        android:text="这里是公告内容............."/>
+	</LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:orientation="vertical">
+       <Button 
+		        android:id="@+id/btn_fast"
+		        android:layout_width="match_parent"
+		        android:layout_height="50dp"
+		        android:background="@drawable/btn_corner"
+		        android:layout_marginLeft="30dip"
+		        android:layout_marginRight="30dip"
+		        android:layout_marginTop="40dip"
+		        android:textColor="@color/white"
+		        android:textSize="20sp"
+		        android:text="快 捷 录 入"/>
+       <Button 
+		        android:id="@+id/btn_batch"
+		        android:layout_width="match_parent"
+		        android:layout_height="50dp"
+		        android:background="@drawable/btn_corner"
+		        android:layout_marginLeft="30dip"
+		        android:layout_marginRight="30dip"
+		        android:layout_marginTop="40dip"
+		        android:textColor="@color/white"
+		        android:textSize="20sp"
+		        android:text="批 量 录 入"/>
+       <Button 
+		        android:id="@+id/btn_info"
+		        android:layout_width="match_parent"
+		        android:layout_height="50dp"
+		        android:background="@drawable/btn_corner"
+		        android:layout_marginLeft="30dip"
+		        android:layout_marginRight="30dip"
+		        android:layout_marginTop="40dip"
+		        android:textColor="@color/white"
+		        android:textSize="20sp"
+		        android:text="个 人 信 息"/>
+   </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="button_color">#f86964</color>
+    <color name="black_text">#444444</color>
+    <color name="gray_text">#797979</color>
+    <color name="activity_bg">#eeeeee</color>
+    <color name="titlebar_bg">#444444</color>
+    <color name="province_line_border">#C7C7C7</color>
+	<color name="line_color">#c9c9c9</color>
+    <!-- 扫描二维码部分颜色 -->
+    <color name="capture_text_cover_bg">#7a000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#7a000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <drawable name="webview_progress">#f86964</drawable>
+</resources>

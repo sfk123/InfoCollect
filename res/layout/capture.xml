@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/capture_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <SurfaceView
+        android:id="@+id/capture_preview_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+
+    <cn.hugo.android.scanner.view.ViewfinderView
+        android:id="@+id/capture_viewfinder_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent" />
+
+       <RelativeLayout
+    android:id="@+id/topbar" 
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/topbar_height"
+    android:background="@color/titlebar_bg">
+    <ImageView 
+        android:id="@+id/back"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/arrow_left"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"/>
+    <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="二维码/条形码"
+	    android:textSize="18sp"
+    android:textColor="@color/white"
+	android:layout_centerInParent="true"
+   />
+    <ImageView 
+        android:id="@+id/capture_flashlight"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        android:src="@drawable/flashlight"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"/>
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mask_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="95.0dip"
+        android:layout_gravity="bottom|center">
+		<TextView 
+		    android:id="@+id/lable1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="@color/gray_text"
+		    android:text="将二维码/条形码放入框内，即可自动扫描"
+		    android:layout_marginTop="30dp"
+		    android:layout_centerHorizontal="true"/>
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="@color/button_color"
+		    android:text="顾客付款码"
+		    android:textSize="20sp"
+		    android:visibility="gone"
+		    android:layout_marginTop="10dp"
+		    android:layout_below="@id/lable1"
+		    android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</FrameLayout>

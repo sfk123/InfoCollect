@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InfoCollect</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- 扫描二维码相关 -->
+	<string name="bottom_hint">建议与镜头保持10CM距离，尽量避免逆光和阴影</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+    <string name="button_ok">确定</string>
+	<string-array name="types">
+	    <item>衣服</item>
+	    <item>类别1</item>
+	    <item>类别2</item>
+	    <item>类别3</item>
+	    <item>类别4</item>
+	</string-array>
+</resources>
